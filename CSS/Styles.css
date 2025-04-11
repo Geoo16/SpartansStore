@@ -1,19 +1,29 @@
-/* General styles */
+/* Importar fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* ---------- Estilos Generales ---------- */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #1a1a1a;
   color: #fff;
   padding: 20px;
   margin: 0;
+  line-height: 1.6;
 }
-a{
+
+a {
   color: greenyellow;
+}
+
+/* ---------- Títulos ---------- */
+h1, h2 {
+  color: #4caf50;
+  margin-bottom: 10px;
 }
 
 header h1 {
   text-align: center;
-  color: #4caf50;
-  font-size: 3rem; /* Antes 2rem aprox */
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
   text-shadow: 0 0 10px #4caf50, 0 0 20px #4caf50;
@@ -34,30 +44,12 @@ header h1 {
   font-weight: 600;
   margin: 0;
   letter-spacing: 1px;
-}
-
-.title-banner .highlight {
-  color: limegreen; /* verde oscuro profesional */
-}
-
-/* Animación opcional */
-.title-banner h1 {
   animation: fadeInTitle 1s ease-in-out;
 }
 
-@keyframes fadeInTitle {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.title-banner .highlight {
+  color: limegreen;
 }
-
-
-
 
 @keyframes fadeInTitle {
   from {
@@ -70,22 +62,28 @@ header h1 {
   }
 }
 
-/* Grid container for dinosaurs */
+/* ---------- Contenedor Grid ---------- */
 #dinoContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Tamaño mínimo de 600px */
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 32px;
+  padding: 24px;
 }
 
+/* ---------- Card de Dinosaurio ---------- */
 .dino-card {
-  background-color: #2a2a2a;
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  width: 100%;
+  background-color: #2e2e2e;
+  color: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 640px;
   box-sizing: border-box;
-  position: relative;
+  animation: fadeInUp 0.6s ease;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -94,35 +92,47 @@ header h1 {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
 }
 
-.dino-photo {
-  width: 100%;
-  border-radius: 8px;
-  object-fit: cover;
+.dino-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #4caf50;
 }
 
+.dino-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+/* ---------- Imagen principal ---------- */
+.dino-photo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* ---------- Carrusel ---------- */
 .carousel-container {
   position: relative;
-  display: flex;
-  justify-content: center;
+  margin-top: auto;
 }
 
 .carousel {
-  display: flex;
-  gap: 12px;
-  margin-top: 15px;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
-  padding-bottom: 10px;
+  width: 100%;
+  height: 365px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
 }
 
 .carousel img {
-  flex-shrink: 0;
   width: 100%;
-  height: 300px;
+  height: 365px;
   object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-  scroll-snap-align: start;
+  border-radius: 8px;
+  display: none;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 }
@@ -132,24 +142,35 @@ header h1 {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
 }
 
-/* Botones de navegación dentro del panel de fotos */
+/* ---------- Botones del Carrusel ---------- */
 .carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 10px;
+  background-color: rgba(76, 175, 80, 0.7);
+  color: white;
+  padding: 4px 10px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 18px;
-  z-index: 10;
+  font-size: 1.5rem;
+  z-index: 1;
+  transition: background-color 0.3s ease;
 }
 
 .carousel-btn:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(102, 187, 106, 0.9);
 }
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+/* ---------- Indicadores del Carrusel ---------- */
 .carousel-indicators {
   display: flex;
   justify-content: center;
@@ -169,18 +190,13 @@ header h1 {
 .carousel-indicators .active {
   background-color: #4caf50;
 }
-.prev-btn {
-  left: 10px;
-}
 
-.next-btn {
-  right: 10px;
-}
-
+/* ---------- Precios ---------- */
 .price-list {
   display: block;
   text-align: left;
   margin: 5px 0;
+  font-size: 1rem;
 }
 
 .price-item {
@@ -188,167 +204,18 @@ header h1 {
   padding: 5px;
   border-radius: 5px;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
-/* Make the table responsive */
-@media (max-width: 768px) {
-  table {
-    font-size: 12px;
-  }
-
-  th, td {
-    padding: 8px;
-  }
-
-  td img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .price-list {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 480px) {
-  table {
-    font-size: 10px;
-  }
-
-  td img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .price-list {
-    font-size: 10px;
-  }
-}
-/* -------------------------- */
-/* Fuente moderna y mejoras visuales */
-/* -------------------------- */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif; /* Cambio a una fuente más moderna */
-  line-height: 1.6;
-}
-
-/* Títulos */
-h1, h2 {
-  color: #4caf50;
-  margin-bottom: 10px;
-}
-
-.dino-card h2 {
-  margin-top: 0;
-  font-size: 1.5rem;
-  color: #4caf50;
-}
-
-.dino-card p {
-  margin: 8px 0;
-  font-size: 1rem;
-}
-
-/* Mejoras visuales para la sección de contacto */
-.contact-section {
-  background-color: #1e1e1e;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #000;
-  margin: 20px 0;
-}
-.ImgLogo{
+/* ---------- Imagen de Logo ---------- */
+.ImgLogo {
   width: 200px;
   float: left;
   margin-right: 1%;
   border-radius: 50%;
 }
 
-.rules{
-  float: right;
-}
-.contact-info a {
-  color: #7289da;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  color: #99aab5;
-}
-.contact-info i {
-  margin-right: 8px;
-  color: #7289da;
-}
-/* Botones del carrusel visualmente más modernos */
-.carousel-btn {
-  background-color: rgba(76, 175, 80, 0.7);
-  transition: background-color 0.3s ease;
-}
-
-.carousel-btn:hover {
-  background-color: rgba(102, 187, 106, 0.9);
-}
-
-/* Botón de agregar dinosaurio (si tienes uno) */
-button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #66bb6a;
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.dino-card {
-  animation: fadeInUp 0.6s ease;
-}
-@media (max-width: 768px) {
-  #dinoContainer {
-    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-    padding: 10px;
-  }
-
-  .dino-card {
-    padding: 15px;
-  }
-
-  .carousel img {
-    height: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel img {
-    height: 160px;
-  }
-
-  .dino-card h2 {
-    font-size: 1.2rem;
-  }
-
-  .dino-card p {
-    font-size: 0.95rem;
-  }
-}
+/* ---------- Reglas y contacto ---------- */
 .flex-container {
   display: flex;
   align-items: flex-start;
@@ -377,90 +244,94 @@ button:hover {
   margin-bottom: 8px;
 }
 
+.contact-section {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+  margin: 20px 0;
+}
+
+.contact-info a {
+  color: #7289da;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #99aab5;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  color: #7289da;
+}
+
+/* ---------- Botón general ---------- */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #66bb6a;
+}
+
+/* ---------- Animaciones ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Responsividad ---------- */
 @media (max-width: 768px) {
+  #dinoContainer {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .dino-card {
+    padding: 15px;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
   .flex-info {
     flex-direction: column;
   }
-}
-/* Contenedor padre (asegúrate de tener este contenedor con grid o flex) */
-#dinoContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-  gap: 32px;
-  padding: 24px;
+
+  .price-list {
+    font-size: 12px;
+  }
 }
 
-/* Estilo uniforme de las cards */
-.dino-card {
-  background-color: #2e2e2e;
-  color: white;
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  min-height: 640px; /* Ajusta según tu contenido promedio */
-  box-sizing: border-box;
-}
+@media (max-width: 480px) {
+  .carousel img {
+    height: 160px;
+  }
 
-/* Imagen principal (mutaciones) */
-.dino-photo {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  display: block;
-}
+  .dino-card h2 {
+    font-size: 1.2rem;
+  }
 
-/* Carrusel */
-.carousel-container {
-  position: relative;
-  margin-top: auto;
-}
+  .dino-card p {
+    font-size: 0.95rem;
+  }
 
-.carousel {
-  width: 100%;
-  height: 365px;
-  overflow: hidden;
-  border-radius: 8px;
-  position: relative;
-}
-
-.carousel img {
-  width: 100%;
-  height: 365px;
-  object-fit: cover;
-  border-radius: 8px;
-  display: none;
-}
-
-/* Botones del carrusel */
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.6);
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  padding: 4px 10px;
-  cursor: pointer;
-  z-index: 1;
-  border-radius: 50%;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
-/* Precios */
-.price-item {
-  margin-left: 10px;
+  .price-list {
+    font-size: 10px;
+  }
 }
