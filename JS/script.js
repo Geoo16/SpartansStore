@@ -21,7 +21,7 @@ const dinoData = [
     {
     name: "S-Dire Bear",
     level: 1401,
-    mutations: "/images/bears/statsbears.png",
+    mutations: "images/bears/statsbears.png",
     description: "<br/><li>All the S-Dire Bears come with their own Ascendant +200 Saddle <br/><li> Buy 3 get 1 free!",
     colors: " <br/><li>Pink - Purple - Cyan - Yellow - Gray - Red - Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1350608917952200748'> Selling Maxed S-Dire Bears </a>",
@@ -29,13 +29,13 @@ const dinoData = [
       { color: "All Colors", value: 2000 }
     ],
     colorPhotos: [
-      "/images/bears/bear1.png",
-      "/images/bears/bear2.png",
-      "/images/bears/bear3.png",
-      "/images/bears/bear4.png",
-      "/images/bears/bear5.png",
-      "/images/bears/bear6.png",
-      "/images/bears/bear7.png",
+      "images/bears/bear1.png",
+      "images/bears/bear2.png",
+      "images/bears/bear3.png",
+      "images/bears/bear4.png",
+      "images/bears/bear5.png",
+      "images/bears/bear6.png",
+      "images/bears/bear7.png",
     ]
   },
   {
