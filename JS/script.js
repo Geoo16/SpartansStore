@@ -3,7 +3,7 @@ const dinoData = [
     name: "Tek Rexes",
     level: 867,
     mutations: "images/TekRex/statstekrex.png",
-    description: "<br/> <li>Each rex comes with a +250 ascendant saddle. <br/><li>You can get a capped saddle for a small extra. <br/><li>For packs of 10 or more, consult the sellers ",
+    description: "<br/> <li>Each rex comes with a +250 ascendant saddle <br/><li>You can get a capped saddle for a small extra <br/><li>For packs of 10 or more, consult the sellers ",
     colors: "<br/> <li>Standard Colors: Green - Arkade <br/> <li>Premium Colors: White Gold - Crimson - Black Gold ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1353219905968803901'>Battle Tek Rexes Max</a>",
     prices: [
@@ -16,6 +16,24 @@ const dinoData = [
       "images/TekRex/tek3.png",
       "images/TekRex/tek4.png",
       "images/TekRex/tek5.png",
+    ]
+  },
+  {
+    name: "Rex",
+    level: 848,
+    mutations: "images/rex/statsrex.png",
+    description: "<br/> <li>Each rex comes with a +250 ascendant saddle <br/><li>You can get a capped saddle for a small extra  <br/><li>For packs of 10 or more, consult the sellers",
+    colors: "<br/> <li>Standard Colors: Arkade <br/> <li>Premium Colors: Monster Green - Black Crimson - Black Cyan ",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360503551184343130'>Selling Battle Rexes</a>",
+    prices: [
+      { color: "Standard Colors: ", value: 500 },
+      { color: "Premium Colors: ", value: 750 },
+    ],
+    colorPhotos: [
+      "images/rex/rex1.png",
+      "images/rex/rex2.png",
+      "images/rex/rex3.png",
+      "images/rex/rex4.png",
     ]
   },
     {
