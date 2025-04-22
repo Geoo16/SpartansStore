@@ -7,8 +7,8 @@ const dinoData = [
     colors: "<br/> <li>Standard Colors: Green - Arkade <br/> <li>Premium Colors: White Gold - Crimson - Black Gold ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1353219905968803901'>Battle Tek Rexes Max</a>",
     prices: [
-      { color: "Standard Colors: ", value: 500 },
-      { color: "Premium Colors: ", value: 750 },
+      { color: "Standard Colors: ", value: 1000 },
+      { color: "Premium Colors: ", value: 1500 },
     ],
     colorPhotos: [
       "images/TekRex/tek1.png",
@@ -26,8 +26,8 @@ const dinoData = [
     colors: "<br/> <li>Standard Colors: Arkade <br/> <li>Premium Colors: Monster Green - Black Crimson - Black Cyan ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360503551184343130'>Selling Battle Rexes</a>",
     prices: [
-      { color: "Standard Colors: ", value: 500 },
-      { color: "Premium Colors: ", value: 750 },
+      { color: "Standard Colors: ", value: 1000 },
+      { color: "Premium Colors: ", value: 1500 },
     ],
     colorPhotos: [
       "images/rex/rex1.png",
@@ -123,8 +123,8 @@ const dinoData = [
     colors: " <br/><li>Black and Gold",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1358964359186874550'>Selling Battle Maxed Rock Drakes</a>",
     prices: [
-      { color: "All Colors", value: 750 },
-      { color: "Get 10 for", value: 5000 }
+      { color: "All Colors", value: 1500 },
+      { color: "Get 10 for", value: 10000 }
     ],
     colorPhotos: [
       "images/drakes/drake1.png",
