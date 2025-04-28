@@ -11,10 +11,10 @@ const dinoData = [
       { color: "Premium Colors: ", value: 1500 },
     ],
     colorPhotos: [
-      "images/TekRex/tek1.png",
+      "images/TekRex/tek4.png",
       "images/TekRex/tek2.png",
       "images/TekRex/tek3.png",
-      "images/TekRex/tek4.png",
+      "images/TekRex/tek1.png",
       "images/TekRex/tek5.png",
     ]
   },
@@ -40,15 +40,33 @@ const dinoData = [
     name: "Carcharodontosaurus",
     level: 1540,
     mutations: "images/ozCarchas/ozStats.png",
-    description: "<br/> <li>A capped saddle (352.7 armor) can also be added for an additional 500 points!<br/><li>Buy 3 get one free! <br/><li>Disclaimer: These are Ozone's Carchas, Spartans are the only official sellers allowed to sell these other than Ozone",
+    description: "<br/><li>A capped saddle (352.7 armor) can also be added for an additional 500 points!<br/><li>Buy 3 get one free! <br/><li>Disclaimer: These are Ozone's Carchas, Spartans are the only official sellers allowed to sell these other than Ozone",
     colors: "<br/> <li>Arkade - Black/Red ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360753775513571439'>Selling Carcharodontosaurus (Ozone's)</a>",
     prices: [
       { color: "All Colors: ", value: 5000 },
     ],
     colorPhotos: [
-      "images/ozCarchas/ozCarcha1.png",
       "images/ozCarchas/ozCarcha2.png",
+      "images/ozCarchas/ozCarcha1.png",
+    ]
+  },
+  {
+    name: "S-Ceratosaurus",
+    level: 1317,
+    mutations: "images/ceratos/ceratostats.png",
+    description: "<br/><li> Your purchase includes an ascendant saddle with 200+ armor",
+    colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green - Black/Cyan",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1366299935846301737'>Selling S-Ceratosaurus</a>",
+    prices: [
+      { color: "All Colors: ", value: 2500 },
+    ],
+    colorPhotos: [
+      "images/ceratos/cerato1.jpg",
+      "images/ceratos/cerato2.jpg",
+      "images/ceratos/cerato3.jpg",
+      "images/ceratos/cerato4.jpg",
+      "images/ceratos/cerato5.jpg",
     ]
   },
     {
