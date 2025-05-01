@@ -52,6 +52,27 @@ const dinoData = [
     ]
   },
   {
+    name: "Giganotosaurus",
+    level: 939,
+    mutations: "images/gigas/gigastats.png",
+    description: "<br/><li> Your purchase includes an ascendant CAPPED saddle",
+    colors: "<br/> <li>Arkade - Black/gray - Black/Green - Black/Cyan - Black/Purple - Gold - Red - Joker",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1367306878677155981'>Selling Giganotosaurus</a>",
+    prices: [
+      { color: "All Colors: ", value: 2500 },
+    ],
+    colorPhotos: [
+      "images/gigas/giga1.jpg",
+      "images/gigas/giga2.jpg",
+      "images/gigas/giga3.jpg",
+      "images/gigas/giga4.jpg",
+      "images/gigas/giga5.jpg",
+      "images/gigas/giga6.jpg",
+      "images/gigas/giga7.jpg",
+      "images/gigas/giga8.jpg",
+    ]
+  },
+  {
     name: "S-Ceratosaurus",
     level: 1317,
     mutations: "images/ceratos/ceratostats.png",
