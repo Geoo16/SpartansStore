@@ -7,8 +7,8 @@ const dinoData = [
     colors: "<br/> <li>Standard Colors: Green - Arkade <br/> <li>Premium Colors: White Gold - Crimson - Black Gold ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1353219905968803901'>Battle Tek Rexes Max</a>",
     prices: [
-      { color: "Standard Colors: ", value: 1000 },
-      { color: "Premium Colors: ", value: 1500 },
+      { color: "Standard Colors: ", value: 4500 },
+      { color: "Premium Colors: ", value: 5000 },
     ],
     colorPhotos: [
       "images/TekRex/tek4.png",
@@ -26,8 +26,8 @@ const dinoData = [
     colors: "<br/> <li>Standard Colors: Arkade <br/> <li>Premium Colors: Monster Green - Black Crimson - Black Cyan ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360503551184343130'>Selling Battle Rexes</a>",
     prices: [
-      { color: "Standard Colors: ", value: 1000 },
-      { color: "Premium Colors: ", value: 1500 },
+      { color: "Standard Colors: ", value: 3000 },
+      { color: "Premium Colors: ", value: 3500 },
     ],
     colorPhotos: [
       "images/rex/rex1.png",
@@ -59,7 +59,7 @@ const dinoData = [
     colors: "<br/> <li>Arkade - Black/gray - Black/Green - Black/Cyan - Black/Purple - Gold - Red - Joker",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1367306878677155981'>Selling Giganotosaurus</a>",
     prices: [
-      { color: "All Colors: ", value: 2500 },
+      { color: "All Colors: ", value: 3500 },
     ],
     colorPhotos: [
       "images/gigas/giga1.jpg",
@@ -76,11 +76,11 @@ const dinoData = [
     name: "S-Ceratosaurus",
     level: 1317,
     mutations: "images/ceratos/ceratostats.png",
-    description: "<br/><li> Your purchase includes an ascendant saddle with 200+ armor",
+    description: "<br/><li> Your purchase includes an ascendant CAPPED saddle ",
     colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green - Black/Cyan",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1366299935846301737'>Selling S-Ceratosaurus</a>",
     prices: [
-      { color: "All Colors: ", value: 2500 },
+      { color: "All Colors: ", value: 6000 },
     ],
     colorPhotos: [
       "images/ceratos/cerato1.jpg",
@@ -94,11 +94,11 @@ const dinoData = [
     name: "S-Dire Bear",
     level: 1401,
     mutations: "images/Bears/statsbears.png",
-    description: "<br/><li>All the S-Dire Bears come with their own Ascendant +200 Saddle <br/><li> Buy 3 get 1 free!",
+    description: "<br/><li>Your purchase includes an ascendant CAPPED saddle <br/><li> Buy 3 get 1 free!",
     colors: " <br/><li>Pink - Purple - Cyan - Yellow - Gray - Red - Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1350608917952200748'> Selling Maxed S-Dire Bears </a>",
     prices: [
-      { color: "All Colors", value: 2000 }
+      { color: "All Colors", value: 4500 }
     ],
     colorPhotos: [
       "images/Bears/bear1.png",
@@ -118,7 +118,7 @@ const dinoData = [
     colors: " <br/><li> Light Blue - Cobalt - Lime Green- Burning Orange - Sun Yellow - Crimson - Pink - Magenta - Ash ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1344775840533319791'>Selling MAX Pyros</a>",
     prices: [
-      { color: "All Colors", value: 1000 }
+      { color: "All Colors", value: 3000 }
     ],
     colorPhotos: [
       "images/Pyros/p1.png",
@@ -140,9 +140,9 @@ const dinoData = [
     colors: " <br/><li>Arkade - Crimson (Red) - Titanium - WhiteNinja - BlackForest - GreenGoldenPink",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1347789359385936032'>Selling Maxed Mantis</a>",
     prices: [
-      { color: "Mantis with Ascendant High-200s Saddle", value: 2000 },
-      { color: "Mantis with Capped Pickaxe or Sword", value: 2500 },
-      { color: "Mantis with both Capped Pickaxe and Sword (1 of each)", value: 2750 }
+      { color: "Mantis with Ascendant High-200s Saddle", value: 2250 },
+      { color: "Mantis with Capped Pickaxe or Sword", value: 2750 },
+      { color: "Mantis with both Capped Pickaxe and Sword (1 of each)", value: 3000 }
     ],
     colorPhotos: [
       "images/Mantis/m1.png",
@@ -162,8 +162,8 @@ const dinoData = [
     colors: " <br/><li>Black and Gold",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1358964359186874550'>Selling Battle Maxed Rock Drakes</a>",
     prices: [
-      { color: "All Colors", value: 1500 },
-      { color: "Get 10 for", value: 10000 }
+      { color: "All Colors", value: 3000 },
+      { color: "Get 10 for", value: 22500 }
     ],
     colorPhotos: [
       "images/drakes/drake1.png",
@@ -179,7 +179,7 @@ const dinoData = [
     colors: " <br/><li>Random colors for now",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1359743577013354626'>Selling Battle Maxed Tusoteuthis</a>",
     prices: [
-      { color: "Random colors for now.", value: 2500 },
+      { color: "Random colors for now.", value: 3000 },
     ],
     colorPhotos: [
       "images/tusos/tusos1.png",
@@ -193,7 +193,7 @@ const dinoData = [
     colors: " <br/><li>Random colors for now",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1359743232560599052'>Selling Battle Maxed S-Mosasaurus</a>",
     prices: [
-      { color: "Random colors for now.", value: 2500 },
+      { color: "Random colors for now.", value: 6000 },
     ],
     colorPhotos: [
       "images/mosas/mosas1.png",
