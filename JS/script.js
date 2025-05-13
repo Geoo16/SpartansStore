@@ -3,9 +3,9 @@ const dinoData = [
     name: "Tek Rexes",
     level: 867,
     mutations: "images/TekRex/statstekrex.png",
-    description: "<br/> <li>Each rex comes with a +250 ascendant saddle <br/><li>You can get a capped saddle for a small extra <br/><li>For packs of 10 or more, consult the sellers ",
+    description: "<br/> <li>Each rex comes with a +200 ascendant saddle <br/><li>You can get a capped saddle for a small extra <br/><li>For packs of 10 or more, consult the sellers ",
     colors: "<br/> <li>Standard Colors: Green - Arkade <br/> <li>Premium Colors: White Gold - Crimson - Black Gold ",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1353219905968803901'>Battle Tek Rexes Max</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371726014602018867'>Battle Tek Rexes Max</a>",
     prices: [
       { color: "Standard Colors: ", value: 4500 },
       { color: "Premium Colors: ", value: 5000 },
@@ -22,9 +22,9 @@ const dinoData = [
     name: "Rex",
     level: 848,
     mutations: "images/rex/statsrex.png",
-    description: "<br/> <li>Each rex comes with a +250 ascendant saddle <br/><li>You can get a capped saddle for a small extra  <br/><li>For packs of 10 or more, consult the sellers",
+    description: "<br/> <li>Each rex comes with a +200 ascendant saddle <br/><li>You can get a capped saddle for a small extra  <br/><li>For packs of 10 or more, consult the sellers",
     colors: "<br/> <li>Standard Colors: Arkade <br/> <li>Premium Colors: Monster Green - Black Crimson - Black Cyan ",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360503551184343130'>Selling Battle Rexes</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371734192462893106'>Selling Battle Rexes</a>",
     prices: [
       { color: "Standard Colors: ", value: 3000 },
       { color: "Premium Colors: ", value: 3500 },
@@ -96,7 +96,7 @@ const dinoData = [
     mutations: "images/Bears/statsbears.png",
     description: "<br/><li>Your purchase includes an ascendant CAPPED saddle <br/><li> Buy 3 get 1 free!",
     colors: " <br/><li>Pink - Purple - Cyan - Yellow - Gray - Red - Green",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1350608917952200748'> Selling Maxed S-Dire Bears </a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371740278788194365'> Selling Maxed S-Dire Bears </a>",
     prices: [
       { color: "All Colors", value: 4500 }
     ],
@@ -112,18 +112,18 @@ const dinoData = [
   },
   {
     name: "Pyromane",
-    level: 1305,
+    level: 1336,
     mutations: "images/Pyros/statspyros.png",
-    description: " <br/> <li> Super god pyros for sale.",
+    description: " <br/> <li> Super god pyros for sale. <br/><li> Buy 3 get 1 free!",
     colors: " <br/><li> Light Blue - Cobalt - Lime Green- Burning Orange - Sun Yellow - Crimson - Pink - Magenta - Ash ",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1344775840533319791'>Selling MAX Pyros</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371736471857532938'>Selling MAX Pyros</a>",
     prices: [
       { color: "All Colors", value: 3000 }
     ],
     colorPhotos: [
       "images/Pyros/p1.png",
       "images/Pyros/p2.png",
-      "images/Pyros/p3.png",
+      "images/Pyros/p3.png",  
       "images/Pyros/p4.png",
       "images/Pyros/p5.png",
       "images/Pyros/p6.png",
@@ -137,8 +137,8 @@ const dinoData = [
     level: 1621,
     mutations: "images/Mantis/statsmantis.png",
     description: "<br/><li> All the Mantis come with their own Ascendant +200 Saddle. <br/><li> Buy 3 get 1 free! ",
-    colors: " <br/><li>Arkade - Crimson (Red) - Titanium - WhiteNinja - BlackForest - GreenGoldenPink",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1347789359385936032'>Selling Maxed Mantis</a>",
+    colors: " <br/><li>Arkade - Crimson (Red) - Titanium White - Ninja Black - Forest Green - Golden - Pink",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371737456868724736'>Selling Maxed Mantis</a>",
     prices: [
       { color: "Mantis with Ascendant High-200s Saddle", value: 2250 },
       { color: "Mantis with Capped Pickaxe or Sword", value: 2750 },
@@ -160,10 +160,9 @@ const dinoData = [
     mutations: "images/drakes/statsdrakes.png",
     description: "<br/><li> Buy 3 get 1 free!",
     colors: " <br/><li>Black and Gold",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1358964359186874550'>Selling Battle Maxed Rock Drakes</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371738899084214343'>Selling Battle Maxed Rock Drakes</a>",
     prices: [
       { color: "All Colors", value: 3000 },
-      { color: "Get 10 for", value: 22500 }
     ],
     colorPhotos: [
       "images/drakes/drake1.png",
