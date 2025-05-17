@@ -195,7 +195,7 @@ const dinoData = [
     colors: " <br/><li>Random colors for now",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373403255660613652'>Selling Battle Maxed Tusos (Tusoteuthis)</a>",
     prices: [
-      { color: "Random colors for now.", value: 3000 },
+      { color: "Random colors for now.", value: 3500 },
     ],
     colorPhotos: [
       "images/tusos/tusos1.png",
