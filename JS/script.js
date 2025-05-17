@@ -90,6 +90,23 @@ const dinoData = [
       "images/ceratos/cerato5.jpg",
     ]
   },
+  {
+    name: "S-Deinosuchus",
+    level: 1333,
+    mutations: "images/Deinos/deinostats.png",
+    description: "<br/><li>Your purchase includes an ascendant saddle with 200+ armor<li> Buy 2 get 1 free! ",
+    colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373400667246559323'>Selling S-Deinosuchus</a>",
+    prices: [
+      { color: "All Colors: ", value: 5000 },
+    ],
+    colorPhotos: [
+      "images/Deinos/deino1.jpg",
+      "images/Deinos/deino2.jpg",
+      "images/Deinos/deino3.jpg",
+      "images/Deinos/deino4.jpg",
+    ]
+  },
     {
     name: "S-Dire Bear",
     level: 1401,
@@ -172,11 +189,11 @@ const dinoData = [
   },
   {
     name: "Tusoteuthis",
-    level: 869,
+    level: 1355,
     mutations: "images/tusos/statstusos.png",
     description: "<br/><li> Your purchase includes an ascendant saddle with 200+ armor",
     colors: " <br/><li>Random colors for now",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1359743577013354626'>Selling Battle Maxed Tusoteuthis</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373403255660613652'>Selling Battle Maxed Tusos (Tusoteuthis)</a>",
     prices: [
       { color: "Random colors for now.", value: 3000 },
     ],
@@ -186,11 +203,11 @@ const dinoData = [
   },
   {
     name: "S-Mosasaurus",
-    level: 810,
+    level: 1324,
     mutations: "images/mosas/statsmosas.png",
-    description: "<br/><li> Your purchase includes an ascendant saddle with 200+ armor",
+    description: "<br/><li> Your purchase includes an ascendant saddle with 200+ armor <li> Buy 2 get 1 free!",
     colors: " <br/><li>Random colors for now",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1359743232560599052'>Selling Battle Maxed S-Mosasaurus</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373402244514316338'>Selling Battle Maxed S-Mosa (S-Mosasaurus)</a>",
     prices: [
       { color: "Random colors for now.", value: 6000 },
     ],
