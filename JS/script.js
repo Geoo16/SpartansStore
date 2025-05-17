@@ -209,7 +209,7 @@ const dinoData = [
     colors: " <br/><li>Random colors for now",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373402244514316338'>Selling Battle Maxed S-Mosa (S-Mosasaurus)</a>",
     prices: [
-      { color: "Random colors for now.", value: 6000 },
+      { color: "Random colors for now.", value: 6500 },
     ],
     colorPhotos: [
       "images/mosas/mosas1.png",
