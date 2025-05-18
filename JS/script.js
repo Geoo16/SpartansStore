@@ -57,9 +57,9 @@ const dinoData = [
     mutations: "images/gigas/gigastats.png",
     description: "<br/><li> Your purchase includes an ascendant CAPPED saddle",
     colors: "<br/> <li>Arkade - Black/gray - Black/Green - Black/Cyan - Black/Purple - Gold - Red - Joker",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1367306878677155981'>Selling Giganotosaurus</a>",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1367306878677155981'>Selling Giga (Giganotosaurus)</a>",
     prices: [
-      { color: "All Colors: ", value: 3500 },
+      { color: "All Colors: ", value: 4000 },
     ],
     colorPhotos: [
       "images/gigas/giga1.jpg",
@@ -80,7 +80,7 @@ const dinoData = [
     colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green - Black/Cyan",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1366299935846301737'>Selling S-Ceratosaurus</a>",
     prices: [
-      { color: "All Colors: ", value: 6000 },
+      { color: "All Colors: ", value: 7000 },
     ],
     colorPhotos: [
       "images/ceratos/cerato1.jpg",
@@ -98,7 +98,7 @@ const dinoData = [
     colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373400667246559323'>Selling S-Deinosuchus</a>",
     prices: [
-      { color: "All Colors: ", value: 5000 },
+      { color: "All Colors: ", value: 5500 },
     ],
     colorPhotos: [
       "images/Deinos/deino1.jpg",
@@ -115,7 +115,7 @@ const dinoData = [
     colors: " <br/><li>Pink - Purple - Cyan - Yellow - Gray - Red - Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371740278788194365'> Selling Maxed S-Dire Bears </a>",
     prices: [
-      { color: "All Colors", value: 4500 }
+      { color: "All Colors", value: 5000 }
     ],
     colorPhotos: [
       "images/Bears/bear1.png",
@@ -135,7 +135,7 @@ const dinoData = [
     colors: " <br/><li> Light Blue - Cobalt - Lime Green- Burning Orange - Sun Yellow - Crimson - Pink - Magenta - Ash ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371736471857532938'>Selling MAX Pyros</a>",
     prices: [
-      { color: "All Colors", value: 3000 }
+      { color: "All Colors", value: 3500 }
     ],
     colorPhotos: [
       "images/Pyros/p1.png",
@@ -195,7 +195,7 @@ const dinoData = [
     colors: " <br/><li>Random colors for now",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373403255660613652'>Selling Battle Maxed Tusos (Tusoteuthis)</a>",
     prices: [
-      { color: "Random colors for now.", value: 3500 },
+      { color: "Random colors for now.", value: 4000 },
     ],
     colorPhotos: [
       "images/tusos/tusos1.png",
