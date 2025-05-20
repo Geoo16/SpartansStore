@@ -1,4 +1,22 @@
 const dinoData = [
+{
+    name: "S-Carcharodontosaurus",
+    level: 1590,
+    mutations: "images/scarchas/scarchastats.png",
+    description: "<br/><li> Your purchase includes an ascendant CAPPED saddle",
+    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Purple - Black/Red",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1374529209531109416'>Selling Max S-Carcha (S-Carcharodontosaurus)</a>",
+    prices: [
+      { color: "All Colors: ", value: 7000 },
+    ],
+    colorPhotos: [
+      "images/scarchas/scarcha1.jpg",
+      "images/scarchas/scarcha2.jpg",
+      "images/scarchas/scarcha3.jpg",
+      "images/scarchas/scarcha4.jpg",
+      "images/scarchas/scarcha5.jpg",
+    ]
+  },
   {
     name: "Tek Rexes",
     level: 867,
