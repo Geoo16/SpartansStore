@@ -3,7 +3,7 @@ const dinoData = [
     name: "S-Carcharodontosaurus",
     level: 1590,
     mutations: "images/scarchas/scarchastats.png",
-    description: "<br/><li> Your purchase includes an ascendant CAPPED saddle",
+    description: "<br/><li> Your purchase includes an ascendant CAPPED saddle <br/><li>Buy 3 get one free",
     colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Purple - Black/Red",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1374529209531109416'>Selling Max S-Carcha (S-Carcharodontosaurus)</a>",
     prices: [
@@ -56,13 +56,13 @@ const dinoData = [
   },
   {
     name: "Carcharodontosaurus",
-    level: 1540,
+    level: 1859,
     mutations: "images/ozCarchas/ozStats.png",
     description: "<br/><li>A capped saddle (352.7 armor) can also be added for an additional 500 points!<br/><li>Buy 3 get one free! <br/><li>Disclaimer: These are Ozone's Carchas, Spartans are the only official sellers allowed to sell these other than Ozone",
     colors: "<br/> <li>Arkade - Black/Red ",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360753775513571439'>Selling Carcharodontosaurus (Ozone's)</a>",
     prices: [
-      { color: "All Colors: ", value: 5000 },
+      { color: "All Colors: ", value: 7000 },
     ],
     colorPhotos: [
       "images/ozCarchas/ozCarcha2.png",
