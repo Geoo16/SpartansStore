@@ -55,21 +55,6 @@ const dinoData = [
     ]
   },
   {
-    name: "Carcharodontosaurus",
-    level: 1859,
-    mutations: "images/ozCarchas/ozStats.png",
-    description: "<br/><li>A capped saddle (352.7 armor) can also be added for an additional 500 points!<br/><li>Buy 3 get one free! <br/><li>Disclaimer: These are Ozone's Carchas, Spartans are the only official sellers allowed to sell these other than Ozone",
-    colors: "<br/> <li>Arkade - Black/Red ",
-    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1360753775513571439'>Selling Carcharodontosaurus (Ozone's)</a>",
-    prices: [
-      { color: "All Colors: ", value: 7000 },
-    ],
-    colorPhotos: [
-      "images/ozCarchas/ozCarcha2.png",
-      "images/ozCarchas/ozCarcha1.png",
-    ]
-  },
-  {
     name: "Giganotosaurus",
     level: 939,
     mutations: "images/gigas/gigastats.png",
