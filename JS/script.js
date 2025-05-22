@@ -18,6 +18,24 @@ const dinoData = [
     ]
   },
   {
+    name: "S-Megalosaurus",
+    level: 1848,
+    mutations: "images/megalos/megalostats.png",
+    description: "<br/><li>Your purchase includes an ascendant saddle with 200+ armor <br/><li>You can get a capped saddle for 500pts extra <br/><li>Buy 3 get one free",
+    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Gold - Black/Red",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1374902925482004480'>Selling Max S-Megalos (S-Megalosaurus)</a>",
+    prices: [
+      { color: "All Colors: ", value: 5500 },
+    ],
+    colorPhotos: [
+      "images/megalos/megalo1.jpg",
+      "images/megalos/megalo2.jpg",
+      "images/megalos/megalo3.jpg",
+      "images/megalos/megalo4.jpg",
+      "images/megalos/megalo5.jpg",
+    ]
+  },
+  {
     name: "Tek Rexes",
     level: 867,
     mutations: "images/TekRex/statstekrex.png",
