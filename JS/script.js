@@ -128,6 +128,25 @@ const dinoData = [
       "images/Deinos/deino4.jpg",
     ]
   },
+  {
+    name: "Reaper",
+    level: 890,
+    mutations: "images/Reaper/reaperstats.png",
+    description: "<br/><li> Buy 3 get 1 free! ",
+    colors: "<br/> <li>Arkade - Crimson - Green - Gold - White - Alien Black ",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1376135834100564028'>Selling Battle Reapers Max Health/Damage</a>",
+    prices: [
+      { color: "All Colors: ", value: 3500 },
+    ],
+    colorPhotos: [
+      "images/Reaper/reaper1.jpg",
+      "images/Reaper/reaper2.jpg",
+      "images/Reaper/reaper3.jpg",
+      "images/Reaper/reaper4.jpg",
+      "images/Reaper/reaper5.jpg",
+      "images/Reaper/reaper6.jpg",
+    ]
+  },
     {
     name: "S-Dire Bear",
     level: 1401,
