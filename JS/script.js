@@ -4,7 +4,7 @@ const dinoData = [
     level: 1590,
     mutations: "images/scarchas/scarchastats.png",
     description: "<br/><li> Your purchase includes an ascendant CAPPED saddle <br/><li>Buy 3 get one free",
-    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Purple - Black/Red",
+    colors: "<br/> <li>Arkade - Black/Purple - Black/Green - Black/Red - Black/Cyan",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1374529209531109416'>Selling Max S-Carcha (S-Carcharodontosaurus)</a>",
     prices: [
       { color: "All Colors: ", value: 7000 },
@@ -22,7 +22,7 @@ const dinoData = [
     level: 1848,
     mutations: "images/megalos/megalostats.png",
     description: "<br/><li>Your purchase includes an ascendant saddle with 200+ armor <br/><li>You can get a capped saddle for 500pts extra <br/><li>Buy 3 get one free",
-    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Gold - Black/Red",
+    colors: "<br/> <li>Arkade - Black/Cyan - Black/Gold - Black/Green - Black/Red",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1374902925482004480'>Selling Max S-Megalos (S-Megalosaurus)</a>",
     prices: [
       { color: "All Colors: ", value: 5500 },
@@ -40,7 +40,7 @@ const dinoData = [
     level: 867,
     mutations: "images/TekRex/statstekrex.png",
     description: "<br/> <li>Each rex comes with a +200 ascendant saddle <br/><li>You can get a capped saddle for a small extra <br/><li>For packs of 10 or more, consult the sellers ",
-    colors: "<br/> <li>Standard Colors: Green - Arkade <br/> <li>Premium Colors: White Gold - Crimson - Black Gold ",
+    colors: "<br/> <li>Standard Colors: Arkade - Green<br/> <li>Premium Colors: Black Gold - White Gold - Crimson",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371726014602018867'>Battle Tek Rexes Max</a>",
     prices: [
       { color: "Standard Colors: ", value: 4500 },
@@ -48,10 +48,10 @@ const dinoData = [
     ],
     colorPhotos: [
       "images/TekRex/tek4.png",
-      "images/TekRex/tek2.png",
+      "images/TekRex/tek5.png",
       "images/TekRex/tek3.png",
       "images/TekRex/tek1.png",
-      "images/TekRex/tek5.png",
+      "images/TekRex/tek2.png",
     ]
   },
   {
@@ -77,7 +77,7 @@ const dinoData = [
     level: 939,
     mutations: "images/gigas/gigastats.png",
     description: "<br/><li> Your purchase includes an ascendant CAPPED saddle",
-    colors: "<br/> <li>Arkade - Black/gray - Black/Green - Black/Cyan - Black/Purple - Gold - Red - Joker",
+    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Red - Black/gray - Black/Purple - Gold - Joker",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1367306878677155981'>Selling Giga (Giganotosaurus)</a>",
     prices: [
       { color: "All Colors: ", value: 4000 },
@@ -98,7 +98,7 @@ const dinoData = [
     level: 1317,
     mutations: "images/ceratos/ceratostats.png",
     description: "<br/><li> Your purchase includes an ascendant CAPPED saddle ",
-    colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green - Black/Cyan",
+    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Red - Black",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1366299935846301737'>Selling S-Ceratosaurus</a>",
     prices: [
       { color: "All Colors: ", value: 7000 },
@@ -112,11 +112,30 @@ const dinoData = [
     ]
   },
   {
+    name: "S-Thylacoleo",
+    level: 1871,
+    mutations: "images/thylas/thylastats.png",
+    description: "<br/><li>Your purchase includes an ascendant saddle with 200+ armor <br/><li>You can get a capped saddle for 500pts extra <br/><li>Buy 3 get one free",
+    colors: "<br/> <li>Arkade - Black/White - Black/Red - Black/Green - Black - Black/Dark Green",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1378921472940314765'>Selling Max S-Thylas (S-Thylacoleo)</a>",
+    prices: [
+      { color: "All Colors: ", value: 4200 },
+    ],
+    colorPhotos: [
+      "images/thylas/thyla1.jpg",
+      "images/thylas/thyla2.jpg",
+      "images/thylas/thyla3.jpg",
+      "images/thylas/thyla4.jpg",
+      "images/thylas/thyla5.jpg",
+      "images/thylas/thyla6.jpg",
+    ]
+  },
+  {
     name: "S-Deinosuchus",
     level: 1333,
     mutations: "images/Deinos/deinostats.png",
     description: "<br/><li>Your purchase includes an ascendant saddle with 200+ armor<li> Buy 2 get 1 free! ",
-    colors: "<br/> <li>Arkade - Black - Black/Red - Black/Green",
+    colors: "<br/> <li>Arkade - Black/Red - Black - Black/Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1373400667246559323'>Selling S-Deinosuchus</a>",
     prices: [
       { color: "All Colors: ", value: 5500 },
@@ -133,7 +152,7 @@ const dinoData = [
     level: 890,
     mutations: "images/Reaper/reaperstats.png",
     description: "<br/><li> Buy 3 get 1 free! ",
-    colors: "<br/> <li>Arkade - Crimson - Green - Gold - White - Alien Black ",
+    colors: "<br/> <li>Arkade - Crimson - Alien Black - White - Gold - Green",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1376135834100564028'>Selling Battle Reapers Max Health/Damage</a>",
     prices: [
       { color: "All Colors: ", value: 3500 },
@@ -172,7 +191,7 @@ const dinoData = [
     level: 1336,
     mutations: "images/Pyros/statspyros.png",
     description: " <br/> <li> Super god pyros for sale. <br/><li> Buy 3 get 1 free!",
-    colors: " <br/><li> Light Blue - Cobalt - Lime Green- Burning Orange - Sun Yellow - Crimson - Pink - Magenta - Ash ",
+    colors: " <br/><li>Magenta - Pink - Ash - Crimson - Sun Yellow - Burning Orange - Lime Green - Light Blue - Cobalt",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371736471857532938'>Selling MAX Pyros</a>",
     prices: [
       { color: "All Colors", value: 3500 }
@@ -194,7 +213,7 @@ const dinoData = [
     level: 1621,
     mutations: "images/Mantis/statsmantis.png",
     description: "<br/><li> All the Mantis come with their own Ascendant +200 Saddle. <br/><li> Buy 3 get 1 free! ",
-    colors: " <br/><li>Arkade - Crimson (Red) - Titanium White - Ninja Black - Forest Green - Golden - Pink",
+    colors: " <br/><li>Arkade - Crimson - Titanium White - Ninja Black - Forest Green - Golden - Pink",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1371737456868724736'>Selling Maxed Mantis</a>",
     prices: [
       { color: "Mantis with Ascendant High-200s Saddle", value: 2250 },
