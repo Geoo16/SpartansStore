@@ -94,6 +94,24 @@ const dinoData = [
     ]
   },
   {
+    name: "Dreadnoughtus",
+    level: 1333,
+    mutations: "images/dread/dreadstats.png",
+    description: "<br/><li> Your purchase includes an saddle with 40+ armor",
+    colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Red - Black/White",
+    URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1379609998069334136'>Selling Max Dreadnoughtus</a>",
+    prices: [
+      { color: "All Colors: ", value: 9000 },
+    ],
+    colorPhotos: [
+      "images/dread/dread1.jpg",
+      "images/dread/dread2.jpg",
+      "images/dread/dread3.jpg",
+      "images/dread/dread4.jpg",
+      "images/dread/dread5.jpg",
+    ]
+  },
+  {
     name: "S-Ceratosaurus",
     level: 1317,
     mutations: "images/ceratos/ceratostats.png",
