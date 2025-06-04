@@ -97,7 +97,7 @@ const dinoData = [
     name: "Dreadnoughtus",
     level: 1333,
     mutations: "images/dread/dreadstats.png",
-    description: "<br/><li> Your purchase includes an saddle with 40+ armor",
+    description: "<br/><li> Your purchase includes an asc saddle with 100+ armor",
     colors: "<br/> <li>Arkade - Black/Green - Black/Cyan - Black/Red - Black/White",
     URL: "<br/> <li> <a href='discord://discord.com/channels/439900471025467403/1379609998069334136'>Selling Max Dreadnoughtus</a>",
     prices: [
